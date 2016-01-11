@@ -6,13 +6,17 @@ $(document).ready(function() {
         "-webkit-transition": ".5s",
         "transition": ".5s"
     });
-    $("#searchForm").on("input", function() {
-        //search function
-        var searchTerm = parseInt($(this).val());
+    $(".login-form").on("submit", function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var searchTerm = parseInt($("#searchForm").val());
         if (searchTerm in postalCodes) {
             $("#searchResult").text(postalCodes[searchTerm]);
         } else {
             $("#searchResult").text("Geen resultaten");
         }
+    });
+    $("#searchForm").on("input", function() {
+        $(".login-form").submit();
     })
 });
