@@ -26,8 +26,7 @@
   },
   "homepage": "https://github.com/stevenbraham/postcodezoeker#readme",
   "dependencies": {
-    "jquery": "^2.2.0",
-    "metro": "^0.3.9"
+    "jquery": "^2.2.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
