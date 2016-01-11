@@ -1,0 +1,27 @@
+{
+  "name": "postcodezoeker",
+  "version": "1.0.0",
+  "description": "Nederlandse gemeentes vinden op basis van postcode / Find municipalities in the Netherlands with a postal code",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenbraham/postcodezoeker.git"
+  },
+  "keywords": [
+    "postcode",
+    "gemeentes",
+    "nederland",
+    "netherlands",
+    "postal",
+    "code"
+  ],
+  "author": "Steven Braham <steven@braham.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenbraham/postcodezoeker/issues"
+  },
+  "homepage": "https://github.com/stevenbraham/postcodezoeker#readme"
+}
