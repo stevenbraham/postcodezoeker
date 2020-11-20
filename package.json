@@ -30,7 +30,6 @@
   "homepage": "https://github.com/stevenbraham/postcodezoeker#readme",
   "dependencies": {
     "cross-env": "^7.0.2",
-    "jquery": "^3",
     "laravel-mix": "^5.0.9",
     "metro": "git+https://github.com/olton/Metro-UI-CSS.git#48c604abb064da1d945e9e7438a3902ccf7184c4"
   },
