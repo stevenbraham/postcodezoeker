@@ -3,14 +3,11 @@
 This is a simple "site" that I build that allow you to find the name of Dutch county based on the postal code.
 
 # Developing
-**This project asumes that you have gulp *globally* installed. If this is not the case please execute the following command:** 
-(*On Unix based systems you need root rights*)
+Compiling is done trough [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).
 
-`npm install -g gulp` 
+During development you should execute `npm run watch`. This copies everything from the source to the build folder. I recommend starting a http-server in the build folder.
 
-During development you should execute `gulp watch`. This copies everything from the source to the build folder. I reccomend starting a http-server in the build folder.
-
-If you want to create your own minified version for production, exectute `gulp --production`.
+If you want to create your own minified version for production, execute `npm run prod`.
 
 # Credits
 
