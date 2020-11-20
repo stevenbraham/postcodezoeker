@@ -11,4 +11,4 @@ If you want to create your own minified version for production, execute `npm run
 
 # Credits
 
-This project uses the [Metro theme](http://metroui.org.ua/) by Sergey Pimenov. The photo in the background was taken by [Anthony Delanoix](https://stocksnap.io/photo/GEJ6ML9NHQ). This project also relies on the jQuery framework.
+This project uses the [Metro theme](http://metroui.org.ua/) by Sergey Pimenov. The photo in the background was taken by [Anthony Delanoix](https://stocksnap.io/photo/GEJ6ML9NHQ).
