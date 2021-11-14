@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html class="h100">
-<head>
-    <title>Postcode zoeker</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="icon" href="./favicon.png">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <meta charset="utf-8"/>
-</head>
-<body class="h100">
-<div class="container h100">
-    <form class="login-form padding20 block-shadow" id="postal-form">
-        <h1 class="text-light">Postcode zoeken</h1>
-        <hr class="thin"/>
-        <div class="input-control modern text full-size">
-            <input type="text" maxlength="4" id="search" placeholder="Zoekterm"/>
+    <head>
+        <title>Postcode zoeker</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="icon" href="./favicon.png" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css?v=2021" />
+        <meta charset="utf-8" />
+    </head>
+    <body class="h100">
+        <div class="container h100">
+            <form class="login-form padding20 block-shadow" id="postal-form">
+                <h1 class="text-light">Postcode zoeken</h1>
+                <hr class="thin" />
+                <div class="input-control modern text full-size">
+                    <input
+                        type="text"
+                        maxlength="4"
+                        id="search"
+                        placeholder="Zoekterm"
+                    />
+                </div>
+                <br />
+                <b id="searchResult"></b>
+                <br />
+                <br />
+                <small>&copy;<span id="year"></span> Steven Braham</small>
+            </form>
         </div>
-        <br/>
-        <b id="searchResult"></b>
-        <br/>
-        <br/>
-        <small>&copy;<span id="year"></span> Steven Braham</small>
-    </form>
-</div>
-<!-- JS Files -->
-<script defer type="text/javascript" src="./js/app.js?v=2020"></script>
-</body>
+        <!-- JS Files -->
+        <script defer type="text/javascript" src="./js/app.js?v=2021"></script>
+    </body>
 </html>
