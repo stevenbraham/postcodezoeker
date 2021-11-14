@@ -7,7 +7,7 @@ if (yearField !== null) {
 const inputForm = document.getElementById("postal-form");
 const inputField = document.getElementById("search");
 const resultElement = document.getElementById("searchResult");
-const c = true;
+
 function searchPostcode() {
     if (
         inputField instanceof HTMLInputElement &&
