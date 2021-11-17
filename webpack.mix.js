@@ -2,6 +2,19 @@ const mix = require("laravel-mix");
 const path = require("path");
 require("laravel-mix-purgecss");
 mix.setPublicPath("build/");
+mix.babelConfig({
+    presets: [
+        "@babel/preset-typescript",
+        [
+            "@babel/preset-env",
+            {
+                targets: {
+                    esmodules: true
+                }
+            }
+        ]
+    ]
+});
 mix.ts("src/js/app.ts", "./build/js");
 mix.copy("src/index.html", "./build/index.html");
 mix.copy("src/data", "./build/data");
