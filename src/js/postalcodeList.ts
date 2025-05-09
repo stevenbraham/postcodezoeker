@@ -2,7 +2,7 @@ export interface PostalCodeList {
     [postcode: string]: string;
 }
 
-const sessionStorageKey = "postalcodes2023";
+const sessionStorageKey = "postalcodes2025";
 
 export async function fetchPostalCodeList(): Promise<PostalCodeList> {
     const response = await fetch("/data/postalcodes.json");
